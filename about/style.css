@@ -1,0 +1,98 @@
+*{
+	border: 0;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #ccc;
+	font-family: helvetica;
+}
+
+#container{
+	background: #fff;
+	/*height: 1024px;*/
+	width: 930px;
+	margin-right: auto;
+	margin-left: auto;
+	border:1px solid black;
+}
+
+header{
+	/*border: 1px solid black;*/
+	background: #0B4C5F;
+}
+
+header h1, h3{
+	color: #fff;
+}	
+
+h2{
+	text-align: center;
+	color: #424242;
+}
+
+#foto{
+	background: #00BFFF;
+	text-align: center;
+	padding: 20px auto;
+}
+
+#historias{
+/*	border: 1px solid black;*/
+	background: #00BFFF;
+}
+
+#historias header{
+	background: #81DAF5;
+}
+
+table{
+	border-collapse: collapse;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 80%;
+
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+ol{
+	display: table;
+	margin: 0 auto;
+}
+
+#comida{
+	text-align: center;
+}
+
+#comida ul{
+	list-style-type: square;
+	list-style: inside;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+#movies{
+	text-align: center;
+}
+
+#movies ol{
+	margin-top: 20px;\
+}
+
+footer{
+	border: 1px solid black;
+	background: #81DAF5;
+	text-align: center;
+}
